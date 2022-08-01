@@ -1,13 +1,10 @@
 # Rss Reader
-Rss App is a Application that show News about Mobile Development
-using the RSS Feeds from each distributor in that case the distributor
-are:
-
+App made for the monthly challenge of [Mouredev](https://kotlinlang.org/)
 [Android Dev Blog](https://android-developers.googleblog.com)
 
 [Apple News](https://developer.apple.com/news/)
 
-In this project I developed modern Android Development with:
+In this project I developed a Android App with:
 - MVVM architecture
 - Kotlin Coroutines
 - Fragments
@@ -17,6 +14,25 @@ In this project I developed modern Android Development with:
 - Glide
 - Hilt
 - Material Design
+
+## Download The App
+Download the app [Here](https://github.com/DanielMM161/RssReader/raw/master/app/release/rssreader_dmm.apk)
+
+## 📷 Previews
+<p align="center">
+ <img src="previews/home.png" alt="drawing" width="270" />
+ <img src="previews/description.png" alt="drawing" width="270" />
+ <img src="previews/read_later.png" alt="drawing" width="270" />
+ <img src="previews/settings.png" alt="drawing" width="270" />
+</p>
+
+## 📷 Previews Dark Mode
+<p align="center">
+ <img src="previews/home_dark.png" alt="drawing" width="270" />
+ <img src="previews/description_dark.png" alt="drawing" width="270" />
+ <img src="previews/read_later_dark.png" alt="drawing" width="270" />
+ <img src="previews/settings_dark.png" alt="drawing" width="270" />
+</p>
 
 ## 🏛️ Architecture
 Rss Reader is based on the MVVM architecture and the Repository pattern.
@@ -35,4 +51,4 @@ Rss Reader is based on the MVVM architecture and the Repository pattern.
   - Repository Pattern
 - [Retrofit2 & OkHttp3](https://github.com/square/retrofit) - Construct the REST APIs.
 - [Glide](https://github.com/bumptech/glide) - Loading images from network
-- [Hilt](https://github.com/googlecodelabs/android-hilt) -Independency Injection
+- [Hilt](https://github.com/googlecodelabs/android-hilt) - Dependency Injection
